@@ -25,3 +25,46 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* EXERCISE SOLUTION */
+body, .header, .footer, .content, ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body, .content {
+  flex-direction: column;
+}
+
+.content {
+  gap: 10px;  
+}
+
+.header, .footer {
+  width: 100%;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  padding: 15px;
+
+}
+
+a, a:link, a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+.buttons button {
+  padding: 8px;
+}
